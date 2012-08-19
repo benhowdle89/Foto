@@ -1,0 +1,288 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+a {
+	font: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* promo at top -remove as required */
+.promo {
+	line-height: 30px;
+	height: 30px;
+	background: #242121;
+	color: #978b8d;
+	padding-left: 20px;
+	border-bottom: 1px solid #7e7173;
+}
+
+.promo a {
+	margin-right: 30px;
+}
+
+.promo a:hover {
+	color: #fff;
+}
+
+/* layout */
+.wrap {
+	width: 940px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+header {
+	overflow: auto;
+}
+
+h1 {
+	padding: 20px;
+	display: inline-block;
+	float: left;
+}
+
+h2 {
+	margin: 24px 0;
+}
+
+#content {
+	min-height: 500px;
+	clear: both;
+	padding-bottom: 30px;
+}
+
+footer {
+	height: 150px;
+	padding: 30px 0;
+}
+
+/* typography */
+body {
+	font-family: Proxima Nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+#content {
+	text-align: center;
+}
+
+p {
+	margin: 20px auto;
+	line-height: 1.5em;
+}
+
+/* colours */
+body {
+	color: #2d292a;
+}
+
+header {
+	background: #3f393a;
+	border-bottom: 1px solid #000;
+}
+
+#content {
+	background: #dfdcdc;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #fff;
+}
+
+footer {
+	background: #242121;
+	border-top: 1px solid #3f393a;
+	color: #dfdcdc;
+}
+
+h1 {
+	color: #d7d3d3;
+}
+
+#menu li {
+	color: #efedee;
+	background: #242121;
+}
+
+#menu li a {
+	display: block;
+}
+
+#menu li:hover {
+	background: #dfdcdc;
+	color: #2d292a;
+}
+
+/* menu */
+#menu {
+	float: right;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+/* polaroid effect */
+.polaroid {
+	border: 10px solid #fff;
+
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+}
+
+/* highlight border */
+.highlight {
+	border: 1px solid #6c6163;
+}
+
+/* slideshow */
+.slideshow {
+	position: relative;
+	margin: 20px auto;
+	width: 500px;
+	height: 500px;
+}
+
+.slideshow img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* mini grid system */
+.colWrap {
+	text-align: center;
+}
+
+.col {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col1 {
+	width: 33%;
+}
+
+.col2 {
+	width: 66%;
+}
+
+/* media object -thanks to Nicole Sullivan  {
+	http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/}
+
+ */
+.media {
+	margin: 10px;
+}
+
+.media,.bd {
+	overflow: hidden;
+	_overflow: visible;
+	zoom: 1;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.media .img {
+	float: left;
+	margin-right: 20px;
+}
+
+.media .img img {
+	display: block;
+}
+
+.media .imgExt {
+	float: right;
+	margin-left: 10px;
+}
+
+/* socials */
+#socials {
+	margin: 10px;
+	float: right;
+}
+
+#socials li {
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#socials li:hover {
+	background: #dfdcdc;
+	color: #2d292a;
+}
+
+/* forms */
+form {
+	text-align: left;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	background: #3f393a;
+}
+
+input,textarea {
+	font: inherit;
+	color: inherit;
+	background: #fff;
+	display: block;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #a79d9f;
+	line-height: 1.5em;
+}
+
+input:focus,textarea:focus {
+	border: 1px solid #6c6163;
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
+	-webkit-resize: vertical;
+	-moz-resize: vertical;
+	resize: vertical;
+}
+
+label {
+	display: block;
+	margin: 20px 0 10px 0;
+	color: #efedee;
+}
+
+input[type="submit"] {
+	color: #efedee;
+	background: #242121;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+	background: #dfdcdc;
+	color: #2d292a;
+	cursor: pointer;
+}
