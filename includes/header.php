@@ -22,6 +22,7 @@
 <!-- remove as required -->
 <div class="promo">
 	<a href="https://github.com/benhowdle89/Foto/zipball/master">download &rarr;</a>
+	<a href="https://github.com/benhowdle89/Foto/">read more &rarr;</a>
 	<a href="http://twitter.com/benhowdle">@benhowdle</a>
 </div>
 <!-- -->
