@@ -18,6 +18,12 @@ There is a link to Google's CDN jQuery file and a Google Web Font link for your 
 
 All of the user images, ie. the one in the footer, are driven by Twitter's Avatar API, which follow this structure: https://api.twitter.com/1/users/profile_image?screen_name=benhowdle&size=original
 
+'s' folder holds the stylesheets
+
+'i' folder holds the site images
+
+'j' folder holds the JavaScript files
+
 
 ### Other notes
 
