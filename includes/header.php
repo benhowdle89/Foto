@@ -15,7 +15,7 @@
 		<title> <?php echo $page; ?></title>
 		
 		<!-- Set your base page link here, helps with relative paths for CSS etc... -->
-		<base href="http://twostepmedia.co.uk/foto/" />
+		<base href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/foto/" />
 	</head>
 <body>
 
